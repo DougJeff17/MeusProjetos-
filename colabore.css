@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 
 .menu-principal {
@@ -14,6 +20,7 @@
     position: fixed;
     top: 0px;
 }
+
 .menu-principal img {
     width: 70px;
     height: 70px;
@@ -82,40 +89,52 @@
 
 
 
+.colabore h3 {
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 80px;
+    color: #626262;
+    
+}
 
-.center {
-    padding: 30px;
+section.agencias {
     display: flex;
-    margin-left: 0px;
+    padding: 100px;
     margin-top: 10px;
     border-bottom: 1px solid rgb(200, 200, 200);
-   
-}
-.carrosel {
-    padding-left: 20px;
-    margin-top: 10px;
-}
-.carrosel-single2 {
-    margin-top: 40px;
-    text-align: center;
-}
-.carrosel-single {
-    width: 300px;
-    text-align: center;
-}
-.carrosel-single-box {
-    background-color: rgba(212, 185, 185, 0.13);
+}   
+.col-md-4 {
+    color: #626262;
+    width: 25.333333%;
+    float: left;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 41px;
+    
+    margin-left: 74px;
     border-radius: 10px;
 }
-.carrosel-single-box p {
-    padding: 30px;
-    border-radius: 10px;
+
+.agencias img {
+    width: 250px;
+    margin-left: -20px;
 }
-.carrosel img {
-    width: 100px;
+
+.text {
+    text-align: center;
+    padding: 50px;
     margin-top: 10px;
-    border-radius: 50px;    
+    color: #626262;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
+
+
+
+
+
 
 
 footer {

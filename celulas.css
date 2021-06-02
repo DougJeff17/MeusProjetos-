@@ -14,12 +14,14 @@
     position: fixed;
     top: 0px;
 }
+
 .menu-principal img {
     width: 70px;
     height: 70px;
     margin-top: -45px;
     margin-left: 50px;
 }
+
 .menu ul {
     text-align: right;
     width: 80%;
@@ -39,7 +41,6 @@
     color: blue;
     transition: 1s;
     padding: 5px;
-    border-bottom: 1px solid blue;
 }
 #top-search {
     text-align: right;
@@ -81,41 +82,77 @@
 }
 
 
+#local h2 {
+    text-align: center;
+    margin-top: 35px;
+    color: #626262;
+}
+.mapa iframe {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mapa {
+    margin-top: 30;
+}
+
+#mapa {
+    margin-top: 10px;
+    width: 1330px;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4);
+}
 
 
-.center {
-    padding: 30px;
+
+
+
+.celulas {
+    color: #626262;
     display: flex;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
     margin-left: 0px;
-    margin-top: 10px;
+    padding: 80px;
+    
+}
+.celulas2 {
+    color: #626262;
+    display: flex;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -50px;
+    margin-left: 0px;
+    padding: 80px;
     border-bottom: 1px solid rgb(200, 200, 200);
-   
 }
-.carrosel {
-    padding-left: 20px;
-    margin-top: 10px;
+#celulas {
+    margin-left: 50px;
 }
-.carrosel-single2 {
-    margin-top: 40px;
+.celulas img {
+    width: 50px;
+    margin-left: 70px;
+}
+.celulas2 img {
+    width: 50px;
+    margin-left: 70px;
+}
+#mapa-celulas h2 {
     text-align: center;
+    margin-top: 30px;
+    color: #626262;
+    padding-top: 10px;
 }
-.carrosel-single {
-    width: 300px;
-    text-align: center;
-}
-.carrosel-single-box {
-    background-color: rgba(212, 185, 185, 0.13);
-    border-radius: 10px;
-}
-.carrosel-single-box p {
-    padding: 30px;
-    border-radius: 10px;
-}
-.carrosel img {
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 50px;    
-}
+
+
 
 
 footer {

@@ -39,7 +39,6 @@
     color: blue;
     transition: 1s;
     padding: 5px;
-    border-bottom: 1px solid blue;
 }
 #top-search {
     text-align: right;
@@ -48,8 +47,6 @@
     letter-spacing: 5px;
     text-decoration: none;
 }
-
-
 
 
 
@@ -83,39 +80,52 @@
 
 
 
-.center {
-    padding: 30px;
+
+.content {
     display: flex;
-    margin-left: 0px;
-    margin-top: 10px;
+    justify-content: center;   
+    padding: 120px;
     border-bottom: 1px solid rgb(200, 200, 200);
-   
 }
-.carrosel {
-    padding-left: 20px;
-    margin-top: 10px;
+
+.contato {
+    width: 100%;
+    max-width: 500px;
 }
-.carrosel-single2 {
-    margin-top: 40px;
-    text-align: center;
+
+.form {
+    display: flex;
+    flex-direction: column;
 }
-.carrosel-single {
-    width: 300px;
-    text-align: center;
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    
 }
-.carrosel-single-box {
-    background-color: rgba(212, 185, 185, 0.13);
-    border-radius: 10px;
+
+.field_ {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
 }
-.carrosel-single-box p {
-    padding: 30px;
-    border-radius: 10px;
+
+textarea {
+    height: 150px;
 }
-.carrosel img {
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 50px;    
-}
+
+
+
+
+
 
 
 footer {
