@@ -5,16 +5,40 @@
 }
 
 
-
-.menu-principal {
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    border-bottom: 1px solid rgb(200, 200, 200);
+.sticky-nav {
     position: fixed;
     top: 0px;
+    display: inline-table;
+    background-color: white;
 }
-.menu-principal img {
+
+.sticky-nav2 {
+    position: fixed;
+    top: 0px;
+    display: inline-table;
+    background-color: white;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+nav {
+    width: 100%;
+
+}
+
+.sticky-nav.nav-border-bottom {
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+
+#icone {
     width: 70px;
     height: 70px;
     margin-top: -45px;
@@ -52,16 +76,27 @@
 
 
 
-
-
-.section2 img {
+.section2  {
     width: 100%;
-    height: 300px;
-    opacity: 1.9;
-    margin-top: 80px;
+    height: 500px;
+    opacity: .9;
+    background-size: cover;
+    background-image: url(../img/modelo.jpg);
 }
 
+.opacity-full {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
 
+.bg-dark-gray {
+    background: #252525 !important;
+}
 
 
 
@@ -88,7 +123,7 @@
     display: flex;
     margin-left: 0px;
     margin-top: 10px;
-    border-bottom: 1px solid rgb(200, 200, 200);
+
    
 }
 .carrosel {
@@ -116,6 +151,354 @@
     margin-top: 10px;
     border-radius: 50px;    
 }
+
+
+
+
+ul#album {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    margin-left: 50px;
+}
+
+ul#album li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4);
+}
+
+ul#album li:hover{
+    -webkit-transform: scale(1.5);
+    transition: 0.5s;
+}
+
+ul#album li#foto1 {
+    background: url(../img/pr\ \(1\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto2{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto3{
+    background: url(../img/pr\ \(3\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto4{
+    background: url(../img/pr\ \(4\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto5{
+    background: url(../img/pr\ \(5\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto6{
+    background: url(../img/pr\ \(6\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto7 {
+    background: url(../img/pr\ \(3\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto7:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto8{
+    background: url(../img/pr\ \(1\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto8:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto9{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto9:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto10{
+    background: url(../img/pr\ \(2\).jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto10:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto11{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto11:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto12{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto12:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto13{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto13:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto14{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto14:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto15{
+    background: url(../img/pr\ \(2\).jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white; 
+}
+ul#album li#foto15:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#local h2 {
+    text-align: center;
+    margin-top: 35px;
+    color: #626262;
+}
+.mapa iframe {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mapa {
+    margin-top: 30;
+}
+
+#mapa {
+    margin-top: 10px;
+    width: 1330px;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4);
+}
+
+
+
+
+.celulas {
+    color: #626262;
+    display: flex;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 80px;
+    
+}
+.celulas2 {
+    color: #626262;
+    display: flex;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -50px;
+    margin-left: 0px;
+    padding: 80px;
+}
+#celulas {
+    margin-left: 50px;
+}
+.celulas img {
+    width: 50px;
+    margin-left: 70px;
+}
+.celulas2 img {
+    width: 50px;
+    margin-left: 70px;
+}
+#mapa-celulas h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #626262;
+    padding-top: 10px;
+}
+
+.colabore h3 {
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 80px;
+    color: #626262;
+    
+}
+
+section.agencias {
+    display: flex;
+    padding: 100px;
+    margin-top: 10px;
+}   
+
+.col-md-4 {
+    color: #626262;
+    width: 25.333333%;
+    float: left;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 41px;
+    
+    margin-left: 74px;
+    border-radius: 10px;
+}
+
+.agencias img {
+    width: 250px;
+    margin-left: -20px;
+}
+
+#text {
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+    color: #626262;
+    font-size: 18px;
+ 
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;   
+    padding: 120px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    
+}
+
+.field_ {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+
+
 
 
 footer {
