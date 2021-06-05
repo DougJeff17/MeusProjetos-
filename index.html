@@ -4,33 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/6508d9d9bd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>INAEJP</title>
-    <link rel="stylesheet" type="text/css" href="./_css/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"
-    integrity="sha384-R4/ztc4ZlRqWjqIuvf6RX5yb/v90qNGx6fS48N0tRxiGkqveZETq72KgDVJCp2TC"
-    crossorigin="anonymous"></script>
-    <script src="./main.js/main.js"></script>
-
+    
 </head>
 <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav  nav-border-bottom nav-white" role="navigation">
-        <div class="menu">
-            <div>
-                <ul>
-                    <li><a href="./index.html">Inicil</a></li>
-                    <li><a href="./">Quem Somos</a></li>
-                    <li><a href="./galeria.html">Galeria</a></li>
-                    <li><a href="./celulas.html">Celulas</a></li>
-                    <li><a href="./colabore.html">Colabore</a></li>
-                    <li><a href="./FaleConosco.html">Fale Conosco</a></li>
-                </ul>  
+    
+    <header class="max-header">
+        <div class="container">
+        
+            <div class="logo">
+                <img src="./Img.html/Icone.png"/>
             </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#">Inicil</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Celulas</a></li>
+                    <li><a href="#">Colabore</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
         </div>
-     
-        <img id="icone" src="./img/Icone.png"/>  
 
         <div id="top-search">
             <a target="_blank" href="https://www.instagram.com/novaaliancaemanueljp/">
@@ -42,353 +40,209 @@
             <a target="_blank" href="https://www.youtube.com/channel/UCXM8_pPOmNYIRENRZ0v6RHg"  >
                 <i class="fab fa-youtube"></i>
             </a>
-        </div>
-    </nav>
+        </div>  
 
-    <section class="section2">
-        <div class="opacity-full bg-dark-gray"></div>
-    </section ---section2>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+    </header>
+
+
+    <main class="modelo">
+        <video autoplay muted loop width="100%">
+        <source  src="./videos/video-logo.mp4.mp4">
+        </video>
+        <section id="section" >
+            <div>
+                <div class="opacity-full bg-dark-gray"></div>
+            </div>
+        </section>
+    </main>
+
 
 
     <section class="section3">
-        <div>
+        <div id="section3">
             <h2>NOVA ALIANÇA EMANUEL</h2>
             <p>Lugas de Amar a Deus e amar Pessoas</p>
         </div>
     </section ---seection3>
 
+    <section class="eventos">
+        <div>
+            <h2>Proximos Eventos</h2>
+        </div>
+      
+    </section>
+
+    <section class="slider-principal">
+        <span>Para pausar coloque o ponteiro em cima da imagem</span>
+        <div class="slider">
+        <div><img src="./Img.html/eventos (1).jpeg"></div>
+        <div><img src="./Img.html/eventos (2).jpeg"></div>
+        <div><img src="./Img.html/eventos (3).jpeg"></div>
+        <div><img src="./Img.html/eventos (4).jpeg"></div>
+        </div>
+    </section>
+
 
     <section class="center">
-            <div class="carrosel">
-                <div class="carrosel-single">
-                    <div class="carrosel-single-box">
-                        <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
-                    </div>
-                        <img src="./img/pr.diogo.jpg"/>
-                        <p>Pr. Driogo</p>
+        <div class="carrosel">
+            <div class="carrosel-single">
+                <div class="carrosel-single-box">
+                    <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
                 </div>
+                    <img src="./Img.html/pr.diogo.jpg"/>
+                    <p>Pr. Driogo</p>
             </div>
-            <div class="carrosel">
-                <div class="carrosel-single2">
-                    <div class="carrosel-single-box">
-                        <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
-                    </div>
-                        <img src="./img/pr (2).jpg"/>
-                        <p>Pr. Romulo</p>
-                </div>
-            </div>
-            <div class="carrosel">
-                <div class="carrosel-single">
-                    <div class="carrosel-single-box">
-                        <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
-                    </div>
-                        <img src="./img/pr (5).jpg"/>
-                        <p>Pr.a</p>
-                </div>
-            </div>
-              <div class="carrosel">
-                <div class="carrosel-single2">
-                    <div class="carrosel-single-box">
-                        <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
-                    </div>
-                        <img src="./img/pr (3).jpg"/>
-                        <p>Pr.s Wendy</p>
-                </div>
-            </div>
-    </section>
-
-    <section id="image">
-        <div>
-            <ul id="album">
-                <li id="foto1"></li>
-                <li id="foto2"></li>
-                <li id="foto3"></li>
-                <li id="foto4"></li>
-                <li id="foto5"></li>
-                <li id="foto6"></li>
-                <li id="foto7"></li>
-                <li id="foto8"></li>
-                <li id="foto9"></li>
-                <li id="foto10"></li>
-                <li id="foto11"></li>
-                <li id="foto12"></li>
-                <li id="foto13"></li>
-                <li id="foto14"></li>
-                <li id="foto15"></li>
-                
         </div>
+        <div class="carrosel">
+            <div class="carrosel-single2">
+                <div class="carrosel-single-box">
+                    <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
+                </div>
+                    <img src="./Img.html/pr (1).jpg"/>
+                    <p>Pr. Romulo</p>
+            </div>
+        </div>
+        <div class="carrosel">
+            <div class="carrosel-single">
+                <div class="carrosel-single-box">
+                    <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
+                </div>
+                    <img src="./Img.html/wendy.jpg"/>
+                    <p>Pr.a</p>
+            </div>
+        </div>
+          <div class="carrosel">
+            <div class="carrosel-single2">
+                <div class="carrosel-single-box">
+                    <p><i class="fas fa-quote-left"></i>Deus conferiu autoridade à sua igreja para conectar tudo o que está no céu através de Jesus.<i class="fas fa-quote-right"></i></p>
+                </div>
+                    <img src="./Img.html/wendy.jpg"/>
+                    <p>Pr.s Wendy</p>
+            </div>
+        </div>
+</section>
 
-    </section>
-
+<main class="cultos">
     
-    <div id="local">
-        <h2>Localização Igreja</h2>
+        <h1>Cultos</h1>
+        <iframe width="560" height="315" autoplay src="https://www.youtube.com/embed/AomspSh-z5c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" autoplay src="https://www.youtube.com/embed/AomspSh-z5c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="560" height="315" autoplay src="https://www.youtube.com/embed/AomspSh-z5c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" autoplay src="https://www.youtube.com/embed/AomspSh-z5c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+</main>
+
+<div id="local">
+    <h2>Localização Igreja</h2>
+</div>
+
+<section class="mapa">
+    <div id="mapa">       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6657.4637811202865!2d-34.884365560732924!3d-7.177710287536521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace9eafb37d31b%3A0x90abbcc15ea76143!2sR.%20Jos%C3%A9%20L%C3%BAcio%20dos%20Santos%2C%20235%20-%20Cidade%20dos%20Funcion%C3%A1rios%20II%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058078-220!5e0!3m2!1spt-BR!2sbr!4v1622574017493!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-
-    <section class="mapa">
-        <div id="mapa">       
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6657.4637811202865!2d-34.884365560732924!3d-7.177710287536521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace9eafb37d31b%3A0x90abbcc15ea76143!2sR.%20Jos%C3%A9%20L%C3%BAcio%20dos%20Santos%2C%20235%20-%20Cidade%20dos%20Funcion%C3%A1rios%20II%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058078-220!5e0!3m2!1spt-BR!2sbr!4v1622574017493!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
-
-  
-    <div id="mapa-celulas">
-        <h2>Nossas Celulas</h2>
-    </div>
-
-
-    <section class="celulas">
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-    </section>
-    
-    <section class="celulas2">
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-
-        <div id="celulas">
-            <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./img/mapa.png"/></a>
-            <h3></h3>
-            <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
-            <br>
-            <p>Funcionarios 1</p>
-            <p>Quarta: 19hr</p>
-            <strong>Contato: 98856-0493</strong>
-        </div>
-    </section>
-
-    <section id="text">
-        <div>
-            <p>Dar o dízimo é reconhecer que tudo aquilo que nós temos vem do Senhor.
-               Significa devolver uma pequena parte de tudo aquilo que Deus derrama nas nossas vidas.
-               Quando temos um coração grato, certamente damos com alegria. O dinheiro não é uma coisa má: é neutra, ou seja, 
-               com ele podemos fazer coisas boas ou más. Se nós amamos o dinheiro, certamente não amamos a Deus. 
-               Assim, quando somos capazes de entregar para Deus parte do nosso dinheiro, estamos confiando n'Ele e
-               quebrando o poder do dinheiro nas nossas vidas.</p>
-               <br>
-               <br>
-               <p>Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria.</p>
-                <strong>2 Coríntios 9:7</strong>
-        </div>
-    </section>
-
-
-<section class="colabore">
-    <div>
-        <h3>PARA TRANSFERÊNCIAS OU DEPÓSITOS BANCÁRIOS:</h3> <br>
-    </div>
-</section>    
-
-<section class="agencias">
-
-    <div class="col-md-4">
-        <h3> </h3>
-        <br>
-        <p>
-            <strong>Banco do brasil</strong>
-            <br>
-            <strong>AG.</strong>
-            33333-3
-            <br>
-            <strong>C/C:</strong>
-            12345-4
-            <br>
-            Igreja Nova Aliança Emanuel
-            <br>
-            CNPJ: 09.345.345/0001-59
-        </p>
-        <br>
-        <p>
-            <strong>PIX</strong>
-            <br>
-            Chave PIX - Banco do Brasil
-            <br>
-            <strong>0804444444</strong>
-            <br>
-            <img src="img/Qrcode.png"/>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3> </h3>
-        <br>
-        <p>
-            <strong>Banco-Bradesco</strong>
-            <br>
-            <strong>AG.</strong>
-            33333-3
-            <br>
-            <strong>C/C:</strong>
-            12345-4
-            <br>
-            Igreja Nova Aliança Emanuel
-            <br>
-            CNPJ: 09.345.345/0001-59
-        </p>
-        <br>
-        <p>
-            <strong>PIX</strong>
-            <br>
-            Chave PIX - Banco-Bradesco
-            <br>
-            <strong>0804444444</strong>
-            <br>
-            <img src="img/Qrcode.png"/>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3> </h3>
-        <br>
-        <p>
-            <strong>Banco-Santander</strong>
-            <br>
-            <strong>AG.</strong>
-            33333-3
-            <br>
-            <strong>C/C:</strong>
-            12345-4
-            <br>
-            Igreja Nova Aliança Emanuel
-            <br>
-            CNPJ: 09.345.345/0001-59
-        </p>
-        <br>    
-        <p>
-            <strong>PIX</strong>
-            <br>
-            Chave PIX - Banco Santander
-            <br>
-            <strong>0804444444</strong>
-            <br>
-            <img src="img/Qrcode.png"/>
-        </p>
-    </div>
- 
 </section>
 
 
+<div id="mapa-celulas">
+    <h2>Nossas Celulas</h2>
+</div>
 
-<section class="content">   
-    <div class="contato">
-        <form class="form" method="POST" action="./email.php">
-    <input class="field" name="Nome" type="text" id="Nome" placeholder="Nome"> 
-    <input class="field" name="Email" type="text" id="Email" placeholder="E-mail"> 
-    <textarea class="field" name="Mensagem" id="Mensagem" placeholder="Mensagem"></textarea>
-    <input class="field_" type="submit" value="Enviar">
-        </form>
+
+<section class="celulas">
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+</section>
+
+<section class="celulas2">
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
+    </div>
+
+    <div id="celulas">
+        <a href="https://www.google.com.br/maps/place/R.+Manoel+Apol%C3%B4nio+dos+Anjos+-+Conj.+Valentina+Figueredo+I,+Jo%C3%A3o+Pessoa+-+PB,+58064-410/@-7.20301,-34.8435403,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc1f35dc71967:0x1c725a825f04540d!8m2!3d-7.20301!4d-34.8413516" target="_blank"><img src="./Img.html/mapa.png"></a>
+        <h3></h3>
+        <strong>R:  Manoel Apolonio dos Anjos, 62</strong>
+        <br>
+        <p>Funcionarios 1</p>
+        <p>Quarta: 19hr</p>
+        <strong>Contato: 98856-0493</strong>
     </div>
 </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <div class="footer">
-            <p>+55(83) 98856-0493</p> <P>Rua: Jose Licio dos Santos, 235</P> <p>douglasjffrsn@gmail.com</p>
-        </div>
-    </footer>
-
-
-
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>

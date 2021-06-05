@@ -1,108 +1,110 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.sticky-nav {
-    position: fixed;
-    top: 0px;
-    display: inline-table;
-    background-color: white;
+li {
+    list-style: none;
 }
-
-.sticky-nav2 {
-    position: fixed;
-    top: 0px;
-    display: inline-table;
-    background-color: white;
-}
-.navbar-fixed-top, .navbar-fixed-bottom {
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar {
-    min-height: 80px;
-}
-
-nav {
-    width: 100%;
-
-}
-
-.sticky-nav.nav-border-bottom {
-    border-bottom: 1px solid rgba(0,0,0,0);
-}
-
-
-#icone {
-    width: 70px;
-    height: 70px;
-    margin-top: -45px;
-    margin-left: 50px;
-}
-.menu ul {
-    text-align: right;
-    width: 80%;
-    font-size: 15px;
-}
-.menu ul li {
-    display: inline-block;
-    margin-top: 30px;
-    padding-left: 10px;
-}
-.menu ul li a {
+a {
     text-decoration: none;
-    color: black;   
-    text-transform: uppercase; 
 }
-.menu ul li a:hover {
-    color: blue;
-    transition: 1s;
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1; 
+    transition: all 1s;
+}
+.max-header {
+    background-color: transparent;
+
+}
+
+.min-header {
+    background-color: white;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.container {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: grid;
+    grid-template-areas: 
+        "lgo ... nav";
+    grid-template-columns: auto 1fr auto;
+    align-content: center;
+}
+.logo {
+    grid-area: lgo;
+}
+
+.nav-bar {
+    grid-area: nav;
+    font-size: 16px;
+    font-weight: 600;
+    display: grid;
+    align-content: center;
+    margin-right: 50px;
+}
+
+.nav-bar ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+.nav-bar a {
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px solid black;
     padding: 5px;
-    border-bottom: 1px solid blue;
+    transition: 1s;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
 }
 #top-search {
     text-align: right;
+    align-content: flex-end;
     margin-right: 70px;
-    margin-top: -45px;
+    margin-top: -60px;
     letter-spacing: 5px;
-    text-decoration: none;
 }
 
-
-
-
-.section2  {
-    width: 100%;
-    height: 500px;
-    opacity: .9;
-    background-size: cover;
-    background-image: url(../img/modelo.jpg);
+.checkbtn {
+    font-size: 25px;
+    color: black;
+    float: right;
+    margin-top: -30px;
+    margin-right: 25px;
+    cursor: pointer;
+    display: none;
 }
 
-.opacity-full {
-    position: absolute;
-    height: 500px;
-    width: 100%;
-    opacity: 0.8;
-    z-index: 1;
-    top: 0;
-    left: 0;
+#check {
+    display: none;
 }
 
-.bg-dark-gray {
-    background: #252525 !important;
+video {
+    margin-top: -80px;
 }
-
-
 
 .section3 {
-    padding: 30px;
+    height: 100px;
+    margin-top: 30px;
 }
+
 .section3 h2 {
     font-size: 25px;
     text-align: center;
@@ -115,16 +117,48 @@ nav {
     color: #626262;
 }
 
+.eventos {
+   
+    margin-left: 10px;
+    text-align: center;
+    color: #626262;
+}
+
+span {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+
+.slider {
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+}
+
+.slider img {
+    width: 100%;
+    height: 450px;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: transparent;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: transparent;
+}
+
 
 
 
 .center {
     padding: 30px;
     display: flex;
-    margin-left: 0px;
-    margin-top: 10px;
-
-   
+    margin-left: 0px;   
 }
 .carrosel {
     padding-left: 20px;
@@ -152,206 +186,28 @@ nav {
     border-radius: 50px;    
 }
 
+.cultos {
 
-
-
-ul#album {
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    overflow: hidden;
-    list-style: none;
-    margin-left: 50px;
+    text-align: center;
+    color: #626262;
+    font-size: 13px;
+    margin-top: 100px;
 }
 
-ul#album li {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 1px solid black;
-    background-color: white;
-    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4);
-}
-
-ul#album li:hover{
-    -webkit-transform: scale(1.5);
-    transition: 0.5s;
-}
-
-ul#album li#foto1 {
-    background: url(../img/pr\ \(1\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto1:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto2{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto2:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto3{
-    background: url(../img/pr\ \(3\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto3:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto4{
-    background: url(../img/pr\ \(4\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto4:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto5{
-    background: url(../img/pr\ \(5\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto5:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto6{
-    background: url(../img/pr\ \(6\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto6:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto7 {
-    background: url(../img/pr\ \(3\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto7:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto8{
-    background: url(../img/pr\ \(1\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto8:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto9{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto9:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto10{
-    background: url(../img/pr\ \(2\).jpg)no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto10:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto11{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto11:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto12{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto12:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto13{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto13:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto14{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto14:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-
-ul#album li#foto15{
-    background: url(../img/pr\ \(2\).jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: white; 
-}
-ul#album li#foto15:hover {
-    background-position: 0px 0px;
-    background-size: 200px 200px;
+iframe {
+    margin-top: 100px;
+    margin-left: 30px;
 }
 
 #local h2 {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 100px;
     color: #626262;
 }
 .mapa iframe {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 12px;
+    margin-left: 0px;
 }
 
 .mapa {
@@ -361,7 +217,6 @@ ul#album li#foto15:hover {
 #mapa {
     margin-top: 10px;
     width: 1330px;
-    height: 500px;
     margin: 10px;
     border: 5px solid white;
     background-color: white;
@@ -498,17 +353,3 @@ textarea {
 
 
 
-
-
-
-footer {
-    padding: 50px;
-
-}
-
-footer p {
-    display: inline;
-    padding-left: 150px;
-    text-transform: uppercase;
-    
-}
