@@ -1,8 +1,10 @@
 <h2>Sobre Mim<h2>
 
-
+<div>
 <h3>Tenho 33 anos e sou apaixonado pelo mundo da programação. 
-Sou uma desenvolvedor web Front-End e apaixonado também pelo mundo do design de interiores.<h3>
+Sou um desenvolvedor web Front-End e apaixonado também pelo mundo do design de interiores.<h3>
+</div>
+
 
 <h4>Tecnologias<h4>
 
