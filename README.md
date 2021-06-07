@@ -1,13 +1,14 @@
 <h2>Sobre Mim</h2>
 
 <div>
-<h3>Tenho 33 anos e sou apaixonado pelo mundo da programação. 
-Sou um desenvolvedor web Front-End e apaixonado também pelo mundo do design de interiores.</h3>
+<p>Tenho 33 anos e sou apaixonado pelo mundo da programação. 
+Sou um desenvolvedor web Front-End e apaixonado também pelo mundo do design de interiores.</p>
 </div>
 
 
 <h4>Tecnologias</h4>
 
-<h5>Front - End com HTML, CSS, JS.</h5>
-<h5>Mídias Sociais</h5>
-<h5>Estudando Python nas horas vagas</h5>
+<p>Front - End com HTML, CSS, JS.</p>
+<p>Estudando Python nas horas vagas</p>
+
+Habilidade em Redes Sociais 
